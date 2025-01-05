@@ -8,7 +8,7 @@ import Contact from './pages/Contact.Jsx';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Reservation from './pages/Reservation.Jsx';
-import Header from './components/Nav';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Header />
       <Route path="/" element={<Home />} />
       <Route path="/menu" element={<Menu />} />
       <Route path="/about" element={<About />} />

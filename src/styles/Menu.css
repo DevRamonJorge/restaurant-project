@@ -1,0 +1,13 @@
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.meu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
