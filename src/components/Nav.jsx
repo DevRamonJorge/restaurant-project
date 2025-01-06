@@ -1,72 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/Nav.css";
+import logo from "../assets/images/logo.png";
 
 const Nav = () => {
   return (
-    <header style={styles.header}>
-      <div style={styles.logo}>
-        <Link to="/" style={styles.logoText}>Restaurante</Link>
+    <header>
+      <div className="image-logo">
+        <img src={logo} alt="Logo" />
       </div>
-      <nav style={styles.nav}>
-        <ul style={styles.navList}>
-          <li style={styles.navItem}>
-            <Link to="/" style={styles.link}>Home</Link>
-          </li>
-          <li style={styles.navItem}>
-            <Link to="/menu" style={styles.link}>Menu</Link>
-          </li>
-          <li style={styles.navItem}>
-            <Link to="/about" style={styles.link}>Sobre</Link>
-          </li>
-          <li style={styles.navItem}>
-            <Link to="/contact" style={styles.link}>Contato</Link>
-          </li>
-          <li style={styles.navItem}>
-            <Link to="/reservation" style={styles.link}>Reservas</Link>
-          </li>
+      
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/reservation">Reservation</Link></li>
         </ul>
       </nav>
+
+      <button>order now</button>
     </header>
   );
-};
-
-// Estilos básicos
-const styles = {
-  header: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    backgroundColor: "#333",
-    padding: "10px 20px",
-  },
-  logo: {
-    fontSize: "20px",
-    fontWeight: "bold",
-  },
-  logoText: {
-    textDecoration: "none",
-    color: "#fff",
-  },
-  nav: {
-    display: "flex",
-  },
-  navList: {
-    display: "flex",
-    listStyle: "none",
-    margin: 0,
-    padding: 0,
-  },
-  navItem: {
-    marginLeft: "20px",
-  },
-  link: {
-    textDecoration: "none",
-    color: "#fff",
-    fontSize: "16px",
-  },
-  linkHover: {
-    color: "#ff9800",
-  },
 };
 
 export default Nav;

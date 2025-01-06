@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* O header ocupa toda a largura da tela */
+  max-width: 1200px; /* Largura máxima do header */
+  padding: 20px; /* Ajuste o padding conforme necessário */
+  gap: 20px;
+}
+  
+.image-logo img {
+  width: 100px; /* Ajuste o tamanho do logotipo conforme necessário */
+  height: auto;
+}
+  
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+  
+nav li {
+  margin-left: 20px;
+}
+  
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+  
+nav a:hover {
+    color: #ff6347;
+}
+
+
+button {
+  background-color: #EC0808;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+button:hover {
+  background-color: #ec08088f;
+}
+  
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    nav li {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+}
+  

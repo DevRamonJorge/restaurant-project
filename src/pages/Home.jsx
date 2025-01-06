@@ -1,20 +1,24 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Nav from "../components/Nav";
 
 const Home = () => {
   const navigate = useNavigate();
 
-  // Corrigindo a sintaxe da função
+  // Função de navegação
   const handleClick = () => {
     navigate('/menu'); // Redireciona para a página "Menu"
   };
 
   return (
-    <div>
-      <h1>Bem-vindo ao Restaurante Gourmet</h1>
-      <p>Desfrute da melhor experiência gastronômica com nossos pratos exclusivos.</p>
-      <button onClick={handleClick}>Veja o Menu</button>
-    </div>
+    <>
+      <Nav />
+      <div>
+        <h1>Bem-vindo ao Restaurante Gourmet</h1>
+        <p>Desfrute da melhor experiência gastronômica com nossos pratos exclusivos.</p>
+        <button onClick={handleClick}>Veja o Menu</button>
+      </div>
+    </>
   );
 };
 
