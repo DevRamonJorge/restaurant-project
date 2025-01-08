@@ -1,29 +1,29 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Alinha os itens na extremidade do header */
   align-items: center;
-  width: 100%; /* O header ocupa toda a largura da tela */
-  max-width: 1200px; /* Largura máxima do header */
-  padding: 20px; /* Ajuste o padding conforme necessário */
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
   gap: 20px;
 }
-  
+
 .image-logo img {
-  width: 100px; /* Ajuste o tamanho do logotipo conforme necessário */
+  width: 100px;
   height: auto;
 }
-  
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
-  
+
 nav li {
   margin-left: 20px;
 }
-  
+
 nav a {
   color: #000;
   text-decoration: none;
@@ -31,11 +31,10 @@ nav a {
   font-weight: 600;
   transition: color 0.3s ease;
 }
-  
-nav a:hover {
-    color: #ff6347;
-}
 
+nav a:hover {
+  color: #ff6347;
+}
 
 button {
   background-color: #EC0808;
@@ -47,25 +46,60 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-  
+
 button:hover {
   background-color: #ec08088f;
 }
-  
-@media (max-width: 768px) {
-    header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      margin-top: 10px;
-    }
-  
-    nav li {
-      margin-left: 0;
-      margin-top: 10px;
-    }
+
+/* Botão "hamburger" */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
-  
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  transition: transform 0.3s ease;
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-logo {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  nav ul {
+    display: none; /* Esconde o menu por padrão */
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav ul.active {
+    display: flex; /* Mostra o menu quando "active" é aplicado */
+  }
+
+  nav li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  button {
+    display: none;
+  }
+}
+ 
