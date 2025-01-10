@@ -28,3 +28,23 @@ A estrutura atual do projeto é organizada da seguinte forma:
 ├── public          // Arquivos estáticos
 ├── server          // Código backend (Node.js)
 └── README.md       // Documentação do projeto
+
+## 🚀 Funcionalidades Planejadas
+
+- Exibição de cardápios e categorias.  
+- Gerenciamento de pedidos.  
+- Painel administrativo para gerenciar o restaurante.  
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado na máquina.  
+
+### Passos
+
+1. Clone o repositório:  
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
