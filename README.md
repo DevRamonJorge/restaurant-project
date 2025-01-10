@@ -28,6 +28,7 @@ A estrutura atual do projeto é organizada da seguinte forma:
 ├── public          // Arquivos estáticos
 ├── server          // Código backend (Node.js)
 └── README.md       // Documentação do projeto
+````
 
 ## 🚀 Funcionalidades Planejadas
 
@@ -44,7 +45,29 @@ A estrutura atual do projeto é organizada da seguinte forma:
 ### Passos
 
 1. Clone o repositório:  
+```
+git clone https:[//github.com/seu-usuario/seu-repositorio.git](https://github.com/DevRamonJorge/restaurant-project.git)
+````
+Instale as dependências:
+````
+cd seu-repositorio
+npm install
+````
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+Inicie o projeto:
+````
+npm run dev
+````
 
+Acesse a aplicação no navegador pelo endereço:
+````
+http://localhost:5173
+````
+
+📌 Notas
+Esta é uma versão inicial do projeto, e feedbacks são bem-vindos!
+Se quiser contribuir, sinta-se à vontade para abrir um pull request ou uma issue.
+
+📧 Contato
+Email: ramonjscorrea@gmail.com
+Celular: +55 (31) 99510-2006
