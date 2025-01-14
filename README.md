@@ -1,73 +1,73 @@
-# Projeto de Restaurante
+# Restaurant Project
 
-Este é um projeto em desenvolvimento para um sistema de restaurante. O objetivo do projeto é criar uma interface moderna e funcional para gerenciar as operações de um restaurante, incluindo exibição de cardápios e gerenciamento de pedidos.
+This is an ongoing project for a restaurant system. The goal of the project is to create a modern and functional interface to manage restaurant operations, including menu display and order management.
 
-## ⚙️ Ferramentas e Tecnologias Utilizadas
+## ⚙️ Tools and Technologies Used
 
-- **React**: Para criação da interface de usuário.  
-- **Vite**: Para otimizar o ambiente de desenvolvimento.  
-- **Node.js**: Para o backend e gerenciamento do servidor.  
-- **React Router**: Para implementar a navegação entre as páginas da aplicação.  
+- **React**: For building the user interface.  
+- **Vite**: To optimize the development environment.  
+- **Node.js**: For the backend and server management.  
+- **React Router**: To implement navigation between the application's pages.  
 
-## 🚧 Status do Projeto
+## 🚧 Project Status
 
-O projeto está em fase de desenvolvimento e ainda está sendo editado. Novos recursos e melhorias estão sendo implementados constantemente.  
+The project is under development and is still being edited. New features and improvements are constantly being implemented.  
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
-A estrutura atual do projeto é organizada da seguinte forma:  
+The current project structure is organized as follows:  
 
-```plaintext
+```
 ├── src
-│   ├── components  // Componentes reutilizáveis
-│   ├── pages       // Páginas da aplicação
-│   ├── routes      // Configuração das rotas
-│   ├── styles      // Arquivos de estilização
-│   ├── utils       // Funções utilitárias
-│   └── index.jsx   // Ponto de entrada da aplicação
-├── public          // Arquivos estáticos
-├── server          // Código backend (Node.js)
-└── README.md       // Documentação do projeto
+│   ├── components  // Reusable components
+│   ├── pages       // Application pages
+│   ├── routes      // Route configurations
+│   ├── styles      // Styling files
+│   ├── utils       // Utility functions
+│   └── index.jsx   // Application entry point
+├── public          // Static files
+├── server          // Backend code (Node.js)
+└── README.md       // Project documentation
 ````
 
-## 🚀 Funcionalidades Planejadas
+## 🚀 Planned Features
 
-- Exibição de cardápios e categorias.  
-- Gerenciamento de pedidos.  
-- Painel administrativo para gerenciar o restaurante.  
+- Menu and category display.  
+- Order management.  
+- Administrative panel to manage the restaurant.  
 
-## 🛠️ Como Executar o Projeto
+## 🛠️ How to Run the Project
 
-### Pré-requisitos
+### Prerequisites
 
-- Node.js instalado na máquina.  
+- Node.js installed on your machine.  
 
-### Passos
+### Steps
 
-1. Clone o repositório:  
+1. Clone the repository:  
 ```
 git clone https:[//github.com/seu-usuario/seu-repositorio.git](https://github.com/DevRamonJorge/restaurant-project.git)
 ````
-Instale as dependências:
+Install the dependencies:
 ````
 cd seu-repositorio
 npm install
 ````
 
-Inicie o projeto:
+Start the project:
 ````
 npm run dev
 ````
 
-Acesse a aplicação no navegador pelo endereço:
+Access the application in your browser at:
 ````
 http://localhost:5173
 ````
 
-📌 Notas
-Esta é uma versão inicial do projeto, e feedbacks são bem-vindos!
-Se quiser contribuir, sinta-se à vontade para abrir um pull request ou uma issue.
+## 📌 Notes
+This is an initial version of the project, and feedback is welcome!
+If you'd like to contribute, feel free to open a pull request or an issue.
 
-📧 Contato
+## 📧 Contact
 Email: ramonjscorrea@gmail.com
-Celular: +55 (31) 99510-2006
+Phone: +55 (31) 99510-2006
