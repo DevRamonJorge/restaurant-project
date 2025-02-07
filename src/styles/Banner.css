@@ -1,0 +1,8 @@
+.banner {
+  background-image: url('/src/assets/images/bannerHome.png');
+  display: flex;
+  width: 1440px;
+  height: 889px;
+  justify-content: center;
+  color: White;
+}

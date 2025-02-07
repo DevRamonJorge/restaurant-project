@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Nav from "../components/Nav";
+import Banner from "../components/Banner";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ const Home = () => {
         <p>Desfrute da melhor experiência gastronômica com nossos pratos exclusivos.</p>
         <button onClick={handleClick}>Veja o Menu</button>
       </div>
+      <Banner/>
     </>
   );
 };
